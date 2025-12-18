@@ -1,0 +1,44 @@
+{
+    "name": "vivek-mistry/laravel-invoice-engine",
+    "description": "Global invoice engine for Laravel (tax, currency, number to words)",
+    "keywords": [
+        "invoice", "invoice-engine", "laravel-invoice", "php", "laravel"
+    ],
+    "homepage": "https://github.com/vivek-mistry/laravel-invoice-engine",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vivek Mistry",
+            "email": "vickymistry1818@gmail.com",
+            "role" : "Laravel Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2||^8.3||^8.4||^8.5",
+        "orchestra/testbench": "^9.0",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "VivekMistry\\InvoiceEngine\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VivekMistry\\InvoiceEngine\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VivekMistry\\InvoiceEngine\\InvoiceServiceProvider"
+            ],
+            "aliases": {
+                "Invoice": "VivekMistry\\InvoiceEngine\\Facades\\Invoice"
+            }
+        }
+    },
+    "type": "library",
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
