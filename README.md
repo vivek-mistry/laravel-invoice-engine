@@ -72,11 +72,13 @@ Invoice::amount(1250)->words();
 ```
 
 ## 🌍 Supported Regions
-🇮🇳 India (GST)
-🇺🇸 USA (Sales Tax)
-🇬🇧 UK (VAT)
-🇪🇺 EU (VAT)
-🇦🇪 UAE (VAT)
+<ul>
+<li>🇮🇳 India (GST)</li>
+<li>🇺🇸 USA (Sales Tax)</li>
+<li>🇬🇧 UK (VAT)</li>
+<li>🇪🇺 EU (VAT)</li>
+<li>🇦🇪 UAE (VAT)</li>
+</ul>
 
 ## 🧪 Testing
 ```php
@@ -85,9 +87,7 @@ vendor/bin/phpuit
 ```
 
 ## Change Logs
-Date : 27 Sept, 2025
-- Update the Minor bugs of functions
-- Added Plain Repository/Interface
+Initial Release
 
 ## Credits
 
