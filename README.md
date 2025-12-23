@@ -1,6 +1,7 @@
 <p align="center">
   <img src="docs/images/laravel_invoice_engine.png" alt="Laravel Invoice Engine"  width="80%">
 </p>
+
 ## 🧾 Laravel Invoice Engine
 
 Global invoice utilities for Laravel
